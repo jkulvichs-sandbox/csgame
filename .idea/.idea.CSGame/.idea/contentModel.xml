@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_CSGame.-633429931.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="CSGame" t="IncludeRecursive">
+        <e p="CSGame.csproj" t="IncludeRecursive" />
+        <e p="Game" t="Include">
+          <e p="Game.cs" t="Include" />
+          <e p="Objects" t="Include">
+            <e p="Enemy.cs" t="Include" />
+            <e p="GameObject.cs" t="Include" />
+            <e p="GameObjectBouncing.cs" t="Include" />
+            <e p="Particle.cs" t="Include" />
+            <e p="Player.cs" t="Include" />
+            <e p="Rocket.cs" t="Include" />
+            <e p="Splash.cs" t="Include" />
+          </e>
+          <e p="Resources.cs" t="Include" />
+          <e p="State.cs" t="Include" />
+        </e>
+        <e p="GameApp.cs" t="Include" />
+        <e p="GameConfig.cs" t="Include" />
+        <e p="GamePlugins" t="Include">
+          <e p="ImageTools.cs" t="Include" />
+          <e p="InputManager.cs" t="Include" />
+          <e p="Performance.cs" t="Include" />
+        </e>
+        <e p="GameWindow.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+      </e>
+      <e p="CSGame.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

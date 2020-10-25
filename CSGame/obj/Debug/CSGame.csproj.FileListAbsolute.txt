@@ -1,0 +1,8 @@
+/home/jkulvich/Projects/Trash/CSGame/CSGame/bin/Debug/CSGame.exe
+/home/jkulvich/Projects/Trash/CSGame/CSGame/bin/Debug/CSGame.pdb
+/home/jkulvich/Projects/Trash/CSGame/CSGame/obj/Debug/CSGame.csprojAssemblyReference.cache
+/home/jkulvich/Projects/Trash/CSGame/CSGame/obj/Debug/CSGame.csproj.CoreCompileInputs.cache
+/home/jkulvich/Projects/Trash/CSGame/CSGame/obj/Debug/CSGame.exe
+/home/jkulvich/Projects/Trash/CSGame/CSGame/obj/Debug/CSGame.pdb
+/home/jkulvich/Projects/Trash/CSGame/CSGame/bin/Debug/Json.Net.dll
+/home/jkulvich/Projects/Trash/CSGame/CSGame/obj/Debug/CSGame.csproj.CopyComplete
