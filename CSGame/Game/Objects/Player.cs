@@ -20,7 +20,7 @@ namespace CSGame.Game.Objects
         public float reload = 0f;
 
         // Скорость перезарядки
-        public float reloadSpeed = 0.05f;
+        public float reloadSpeed = 0.1f;
 
         // Сила сброса ракеты
         public float rocketDropSpeed = 5f;
@@ -72,12 +72,13 @@ namespace CSGame.Game.Objects
             // Логика выстрела
             if (state.input.IsKeyPressed(Keys.Space) && reload >= 1f)
             {
-                // Выбираем произвольную цель из сцены с противниками
+                // Выбираем цель из списка, если они есть
                 var enemies = state.sceneEnemies.childs.ToList();
                 if (enemies.Count > 0)
                 {
                     reload = 0f;
-
+                    
+                    // Выбор случайной цели
                     var target = enemies[state.rand.Next(0, enemies.Count - 1)].Value;
 
                     // Выбор произвольного угла сброса ракеты

@@ -58,6 +58,7 @@
         <Compile Include="Game\Objects\Particle.cs" />
         <Compile Include="Game\Objects\Rocket.cs" />
         <Compile Include="Game\Objects\Splash.cs" />
+        <Compile Include="Game\Objects\Wave.cs" />
         <Compile Include="Game\Resources.cs" />
         <Compile Include="Game\State.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />

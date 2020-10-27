@@ -66,7 +66,14 @@ namespace CSGame.Game.Objects
                         lifeTime = 0;
                         target.deleted = true;
                         state.sceneEffects.AddChild(new Splash(pos, 20, Color.Violet, state.rand));
+                        state.sceneEffects.AddChild(new Wave(pos, 15, Color.Aqua));
                     }
+                }
+                else
+                {
+                    // Если цель удалилась и больше не существует на сцене
+                    // уничтожаем ракету
+                    lifeTime = 0;
                 }
 
                 // Добавление нестаблиьности ракетам

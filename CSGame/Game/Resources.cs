@@ -5,7 +5,7 @@ namespace CSGame.Game
     // Класс хранящий игровые ресурсы
     public class Resources
     {
-        public Brush brushBackground = new SolidBrush(Color.FromArgb(50, 0, 0, 0));
+        public Brush brushBackground = new SolidBrush(Color.FromArgb(20, 0, 0, 0));
         public Brush brushBlack = new SolidBrush(Color.Black);
         public Brush brushWhite = new SolidBrush(Color.White);
         public Brush brushViolet = new SolidBrush(Color.Violet);

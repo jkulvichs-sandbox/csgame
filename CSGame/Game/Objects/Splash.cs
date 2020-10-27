@@ -16,7 +16,7 @@ namespace CSGame.Game.Objects
             // strength определяет в том числе количество и дальность разлёта частиц
             // С этими константами можно поиграться для лучшего эффекта и производительности
             var count = strength * 5;
-            var maxSpeed = (float) strength / 5f;
+            var maxSpeed = (float) strength / 3f;
 
             // Задаём время жизни объекта
             // И такое же значение улетит частицам

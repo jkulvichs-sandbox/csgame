@@ -42,12 +42,17 @@ namespace CSGame.Game
                 state.scene.ClearDeleted();
 
             // Спавним новых врагов
-            if (state.sceneEnemies.childs.Count < 3)
+            if (state.sceneEnemies.childs.Count < 5)
             {
-                state.sceneEnemies.AddChild(new Enemy(new PointF(
-                    (float) (state.rand.NextDouble() * state.screen.Width),
-                    (float) (state.rand.NextDouble() * state.screen.Height)
-                )));
+                if (state.rand.Next(0, state.sceneEnemies.childs.Count * 400) == 0)
+                {
+                    var pos = new PointF(
+                        (float) (state.rand.NextDouble() * state.screen.Width),
+                        (float) (state.rand.NextDouble() * state.screen.Height)
+                    );
+                    state.sceneEnemies.AddChild(new Enemy(pos));
+                    state.sceneEffects.AddChild(new Wave(pos, 20, Color.Violet));
+                }
             }
 
             // Увеличиваем переменную времени игры
